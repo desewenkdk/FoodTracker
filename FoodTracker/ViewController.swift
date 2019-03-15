@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     //MARK: Properties
     
     //drag and drop from Main.storyboard, connect with viewController
+    //Merged and solved conflicts
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var nameMealName: UILabel!
     
     @IBOutlet weak var mealNameLabel: UILabel!
     override func viewDidLoad() {
