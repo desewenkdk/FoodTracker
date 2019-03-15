@@ -14,8 +14,6 @@ class ViewController: UIViewController {
     //drag and drop from Main.storyboard, connect with viewController
     //Merged and solved conflicts
     @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var nameMealName: UILabel!
-    
     @IBOutlet weak var mealNameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +26,12 @@ class ViewController: UIViewController {
     }
 
     //MARK: Actions
+
+    @IBAction func setDefaultLabelText(_ sender: UIButton) {
+        mealNameLabel.text = "Default Text";
+    }
+    
+    
     
 }
 
