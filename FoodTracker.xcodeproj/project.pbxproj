@@ -47,6 +47,7 @@
 		9A3B5C9422389F580074E534 /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3B5C9822389F590074E534 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		9A3B5C9A22389F590074E534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3B5CA6223B95200074E534 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		9A3B5C6C22389F580074E534 = {
 			isa = PBXGroup;
 			children = (
+				9A3B5CA6223B95200074E534 /* README.md */,
 				9A3B5C7722389F580074E534 /* FoodTracker */,
 				9A3B5C8C22389F580074E534 /* FoodTrackerTests */,
 				9A3B5C9722389F590074E534 /* FoodTrackerUITests */,
