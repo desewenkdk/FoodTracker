@@ -56,10 +56,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="aXr-Se-SSo" secondAttribute="trailing" id="vKi-sz-IMA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="Myd-xi-Vty" id="IgL-bE-Owr"/>
+                        <outlet property="nameTextField" destination="FKp-kU-bf4" id="Mfq-qx-ohU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="314" y="-920"/>
+            <point key="canvasLocation" x="386" y="-994"/>
         </scene>
     </scenes>
 </document>
