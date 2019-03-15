@@ -1,4 +1,4 @@
 #  Tutorial...
-add readme
-
+adding readme
+building basic IOS app
 
