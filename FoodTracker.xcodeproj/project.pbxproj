@@ -14,6 +14,9 @@
 		9A3B5C8322389F580074E534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3B5C8122389F580074E534 /* LaunchScreen.storyboard */; };
 		9A3B5C8E22389F580074E534 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B5C8D22389F580074E534 /* FoodTrackerTests.swift */; };
 		9A3B5C9922389F590074E534 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B5C9822389F590074E534 /* FoodTrackerUITests.swift */; };
+		9A3B5CA9223F632D0074E534 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9A3B5CA8223F632D0074E534 /* .gitignore */; };
+		9A3B5CAA223F632D0074E534 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9A3B5CA8223F632D0074E534 /* .gitignore */; };
+		9A3B5CAB223F632D0074E534 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9A3B5CA8223F632D0074E534 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,7 @@
 		9A3B5C9822389F590074E534 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		9A3B5C9A22389F590074E534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A3B5CA6223B95200074E534 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9A3B5CA8223F632D0074E534 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		9A3B5C6C22389F580074E534 = {
 			isa = PBXGroup;
 			children = (
+				9A3B5CA8223F632D0074E534 /* .gitignore */,
 				9A3B5CA6223B95200074E534 /* README.md */,
 				9A3B5C7722389F580074E534 /* FoodTracker */,
 				9A3B5C8C22389F580074E534 /* FoodTrackerTests */,
@@ -234,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3B5CA9223F632D0074E534 /* .gitignore in Resources */,
 				9A3B5C8322389F580074E534 /* LaunchScreen.storyboard in Resources */,
 				9A3B5C8022389F580074E534 /* Assets.xcassets in Resources */,
 				9A3B5C7E22389F580074E534 /* Main.storyboard in Resources */,
@@ -244,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3B5CAA223F632D0074E534 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3B5CAB223F632D0074E534 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
