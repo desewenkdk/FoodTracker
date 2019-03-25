@@ -61,7 +61,24 @@ mealNameLabel.text = textField.text
 *func textFieldShouldReturn(_ textField: UITextField) -> Bool { *
 *
 ```
+* when design UI....
+    * Delete Code, and also delete **Received Actions!!**
+
+### Strong, Weak.
+* Memory management tactics of IOS.
+* Strong
+    * strong reference, 객체를 소유하여, 래퍼런스 카운트가 증가하는 프로퍼티
+    * 뷰 컨트롤러에서, 뷰의 property -
+    
+    
+## Variables in Swift
+* in Swift, all variables are "Class". so, all variables has "Attributes"
+* **let - constant** ,  **var - variable**
 
 ## Work with View Controllers
 
-### 
+### nuanced distinction between views and controls
+
+* views : *labels, image views*
+
+* controls *text fields, buttons*

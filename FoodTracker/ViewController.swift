@@ -17,6 +17,9 @@ class ViewController: UIViewController,
     //Merged and solved conflicts
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
+    
+    @IBOutlet weak var photoImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,9 +30,9 @@ class ViewController: UIViewController,
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     //MARK: UITextFieldDelegate
-    
-    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         //Hide the Keyboard
         textField.resignFirstResponder()
@@ -44,6 +47,9 @@ class ViewController: UIViewController,
     }
 
     //MARK: Actions
+    @IBAction func selectImageFromLibrary(_ sender: UITapGestureRecognizer) {
+        
+    }
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
         mealNameLabel.text = "Default Text"
     }
